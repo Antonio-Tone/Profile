@@ -1,0 +1,115 @@
+
+body{
+    background-color: burlywood!important;
+
+}
+
+
+#nav{
+    background-color:black!important;
+    margin: 0;
+  
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.color{
+    color: white !important;
+}
+#nav1{
+    background-color: transparent !important;
+    height: 40px;
+    padding: 0%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+#ai{
+ background-color: transparent!important;
+}
+.ul{
+    display: flex
+    !important;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.li{
+    display: flex
+    !important;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 90px;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+.sec{
+   padding: 250px 80px !important;
+   display: flex !important;
+   /* align-items: center;
+   justify-content: center; */
+   background-color: black;
+   /* opacity: 0.70; */
+   background-image: url(/img/antonio.jpg) !important;
+    background-repeat: no-repeat !important; 
+    background-position: center !important;
+    background-size: 400px  !important;
+    text-align: start;
+    color:white
+    
+
+}
+
+
+#div{
+    padding: 50px !important;
+    width: 100%;
+    display: flex;
+    
+}
+
+#light{
+    padding: 50px 20px !important;
+    margin: 90px;
+    margin-left: 40px;
+    justify-content: flex-end;
+
+    
+    
+}
+
+#dark{
+    margin: 60px;
+}
+
+h1{
+    display:flex !important;
+    justify-content: end !important;
+    align-items: end;
+}
+
+.p1{
+    display: flex !important;
+    justify-content: end;
+    align-items: end;
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 20px;
+}
