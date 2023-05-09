@@ -1,6 +1,6 @@
 
 body{
-    background-color: burlywood!important;
+    background-color: grey!important;
 
     
      
@@ -14,6 +14,7 @@ body{
 
 .fadeOut{
     animation: fadeOut 20s !important ;
+    
 }
 
 @keyframes  fadeIn{
@@ -43,8 +44,10 @@ to{
 
 
 #nav{
-    background-color:black!important;
+    opacity: 0.70!important;
     margin: 0;
+    position: fixed;
+    width: 100;
   
 }
 
@@ -61,17 +64,20 @@ to{
     padding: 0%;
     display: flex !important;
     align-items: center !important;
-    justify-content: center !important;
+    justify-content: end!important;
 }
 
 #ai{
- background-color: transparent!important;
+ background-color: black!important;
+ display: flex !important;
+ justify-content: end;
 }
 .ul{
     display: flex
     !important;
-    justify-content: center;
+    justify-content: end;
     justify-content: space-between;
+    position: fixed;
 }
 
 .li{
@@ -80,7 +86,7 @@ to{
     justify-content: space-between;
     text-decoration: none;
     margin-left: 90px;
-    justify-content: center;
+    justify-content: end;
     color: white;
     font-weight: bolder;
     animation: both 2s;
@@ -91,9 +97,10 @@ to{
 
 .sec{
    padding: 250px 80px !important;
-   display: flex !important;
-   /* align-items: center;
-   justify-content: center; */
+   /* display: flex !important; */
+   border-radius: 30px;
+    /* align-items: center; 
+   justify-content: center;  */
    background-color: black;
    /* opacity: 0.70; */
    background-image: url(/img/antonio.jpg) !important;
@@ -101,16 +108,18 @@ to{
     background-position: center !important;
     background-size: 400px  !important;
     text-align: start;
-    color:white
+    color:white;
+    width: 100%;
+    
     
 
 }
 
 
 #div{
-    padding: 50px !important;
-    width: 100%;
-    display: flex;
+    /* padding: 50px !important; */
+    /* width: 100%; */
+    /* display: flex; */
     
 }
 
@@ -130,8 +139,8 @@ to{
 
 h1{
     display:flex !important;
-    justify-content: end !important;
-    align-items: end;
+    justify-content: end!important;
+    align-items: center;
 }
 
 .p1{
@@ -152,3 +161,18 @@ li{
     justify-content: space-between;
     margin: 20px;
 }
+
+a{
+    text-decoration: none;
+}
+
+.div1{
+    width: 100% !important;
+    padding: 0px 20px !important;
+    display: flex;
+    justify-content: start;
+    margin-right: 60px;
+}
+
+
+
