@@ -1,79 +1,88 @@
-
 body{
-    background-color: burlywood !important;
+    background-color: teal !important;
     height: 100vh;
 }
-
+@media screen {min-width: 900px;
+    
+}
 #nav{
-   /* opacity: 0.70; */
+   opacity: 0.70 !important;
     margin: 0;
     /* position: fixed; */
     width: 100%;
-    background-color: transparent !important;
-}
-
-
     
-  
+}
 .nav-link{
     margin-left: 220px !important;
     color: white;
 }
-
-.about {
+/* .about {
     text-align: center;
-    margin-top: 90px;
-    /* text-decoration: underline; */
-}
+    margin-top: 190px;
+    display: flex;
+
+   
+} */
+/* text-decoration: underline; */
+
+
+/* .et{
+    display: flex !important;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+  
+} */
+
 #is{
     /* background-color: grey !important; */
     position: sticky;
     top: 0;
 }
-
-
-img{
-height: 250px;
-width: 200px;
-
-
+#antonio{
+height: 400px;
+width: 300px;
+margin-left: 15rem;
+/* 
+justify-content: end; */
 }
-
-#pc{
+/* #pc{
     display: flex !important;
-    justify-content: center;
-    border-radius: 30px;
-}
-#div{
+    justify-content:end;
+    margin-right: 90px;
+    border-radius: 30px !important;
+} */
+/* #div{
     margin: 0 !important;
-}
-
+} */
 #light{
     margin-top: 60px;
     padding:  90px;
     margin-right: 700px;
     margin-bottom: 30px;
-    /* margin-left: 90px;    display: flex;
     text-align: center;
-    display: flex !important;
-    align-items: start;
-    justify-content: center;
-     */
-    
-    
-
-
+   
 }
 
+#light:hover{
+    background: grey !important;
+    color: white;
+    font-weight: bold;
+}
 #light1{
     margin-top: 60px;
     padding:  90px;
     margin-right: 700px;
  margin-left: 90px;
+ text-align: center;
 }
 
-
-
+#light1:hover{
+    background: grey !important;
+    color: white;
+    font-weight: bold;
+}
 #light2{
     margin-top: 60px;
     padding:  90px;
@@ -81,13 +90,54 @@ width: 200px;
     justify-content: end;
     margin-left: 700px;
     margin-right: 90px;
-    
+    text-align: center;
  }
 
+ #light2:hover{
+    background: grey !important;
+    color: white;
+    font-weight: bold;
+    animation: name-breathing 10s  infinite normal;
+}
  #light3{
     margin-top: 60px;
     padding:  90px;
     margin-left: 700px;
     margin-right: 90px;
-    
+    text-align: center;
  }
+
+ #light3:hover{
+    background: grey !important;
+    color: white;
+    font-weight: bold;
+}
+
+ ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none !important;
+    
+}
+.lc{
+    color:green;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#abt{
+    font-size: xx-large !important;
+
+}

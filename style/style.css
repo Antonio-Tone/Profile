@@ -1,6 +1,10 @@
 
 body{
-    background-color: grey!important;
+    background-color: teal!important;
+    min-height: 100vh;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
 
     
      
@@ -8,6 +12,18 @@ body{
 
 #fadeIn{
     animation: fadeIn 10s !important;
+    margin-right: 5px;
+    animation:infinite;
+}
+
+#fadeIn2{
+    animation: fadeIn 20s !important;
+    margin-right: 5px;
+    animation:infinite;
+}
+
+#fadeIn3{
+    animation: fadeIn 30s !important;
     margin-right: 5px;
     animation:infinite;
 }
@@ -29,15 +45,6 @@ to{
  
 }
 
-@keyframes  fadeOut{
-    from{
-        opacity: 0;
-    }
-    
-    to{
-        opacity: 1;
-    }
-}
 
 
 
@@ -47,7 +54,8 @@ to{
     opacity: 0.70!important;
     margin: 0;
     position: fixed;
-    width: 100;
+    width: 100%;
+    top: 0;
   
 }
 
@@ -79,7 +87,7 @@ to{
     justify-content: space-between;
     position: fixed;
 }
-
+/* 
 .li{
     display: flex
     !important;
@@ -91,37 +99,18 @@ to{
     font-weight: bolder;
     animation: both 2s;
     animation-duration: infinite;
-}
+} */
 
-
-
-.sec{
-   padding: 250px 80px !important;
-   /* display: flex !important; */
-   border-radius: 30px;
-    /* align-items: center; 
-   justify-content: center;  */
-   background-color: black;
-   /* opacity: 0.70; */
-   background-image: url(/img/antonio.jpg) !important;
-    background-repeat: no-repeat !important; 
-    background-position: center !important;
-    background-size: 400px  !important;
-    text-align: start;
-    color:white;
-    width: 100%;
-    
-    
+.px-3:hover{
+    background-color: green;
+    padding: 5px;
 
 }
 
 
-#div{
-    /* padding: 50px !important; */
-    /* width: 100%; */
-    /* display: flex; */
-    
-}
+
+
+
 
 #light{
     padding: 50px 20px !important;
@@ -146,7 +135,7 @@ h1{
 .p1{
     display: flex !important;
     justify-content: end;
-    align-items: end;
+    align-items: center;
 
 }
 
@@ -176,3 +165,42 @@ a{
 
 
 
+.text-success{
+    color: blue !important;
+    font-weight: bolder;
+}
+
+.footer{
+    width: 100% !important;
+}
+hr{
+    width: 100%;
+}
+
+text:hover{
+    background-color: grey !important;
+
+}
+
+.btn-group{
+    margin-left: 700px;
+    margin-top: 60px;
+}
+
+.dropdown-menu{
+    background-color: white!important;
+    opacity: 0.70;
+    text-align: center;
+    list-style-type: ;
+}
+
+
+.dropdown-item{
+color: blue;
+margin: 0;
+}
+
+.dropdown-item:hover{
+    background-color: green;
+
+}

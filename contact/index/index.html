@@ -1,71 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/contact/style/contact.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/contact/style/contact.css" />
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-  <link
-    href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
-    rel="stylesheet"
-  />
-    <title>Document</title>
-</head>
-<body>
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary">
+      <div id="is" class="container-fluid">
+        <h1>Antonio Tone</h1>
 
-    
-    <div id="is" class="container-fluid">
-        <nav  id="nav" class="navbar navbar-expand-lg bg-body-tertiary bg-black fixed-top">
-           
-              <h1>Antonio Tone</h1>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul id="nav-link" class="navbar-nav  mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="nav-link-color-black" href="#">About</a>
-                  </li>
-                 
-                  <li class="nav-item">
-                    <a class="nav-link color-white" href="#">Contact me</a>
-                  </li>
-                </ul>
-                
-              </div>
-           
-          </nav>
+        <button
+          class="navbar-toggler bg-success"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5
+              class="offcanvas-title text-white"
+              id="offcanvasDarkNavbarLabel"
+            >
+              Navigation Bar
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="px-3"><a href="../index.html">HOME</a></li>
+              <li class="px-3"><a href="/about.html">ABOUT</a></li>
+              <li class="px-3"><a href="projects.html">PROJECTS</a></li>
+              <li class="px-3"><a href="testimonials.html">TESTIMONIALS</a></li>
+              <li class="px-3"><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <h1 class="about">Contact Me</h1>
+    <a href="/INDEX.HTML">
+      <button class="button">Back</button>
+    </a>
+
+    <div class="container">
+      <div class="row">
+        <div class="col my-auto">
+          <h1 id="abt" class="about text-center">
+            Contact <br /><br />
+            Me
+          </h1>
         </div>
 
-        <h1 class="about">Contact Me</h1>
-
-<section class="sec">
-        <form
-  action="https://formspree.io/f/xeqwnykd"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button class="btn btn-primary btn-lg" type="submit">My dark button😊</button>
-</form>
-</section>
-
-<footer>Copy@</footer>
-
+        <div class="col">
+          <form class="background">
+            <div class="container bg-light">
+              <div class="h4"><h4>Contact Us</h4></div>
+              <div class="screen">
+                <div class="screen-header">
+                  <div class="screen-header-left"></div>
+                  <div class="screen-header-right"></div>
+                </div>
+                <div class="input">
+                  <input class="space" id="1" type="text" placeholder="NAME" />
+                  <div>
+                    <input
+                      class="space"
+                      id="2"
+                      type="email"
+                      placeholder="EMAIL"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      class="space"
+                      id="3"
+                      type="tel"
+                      placeholder="CONTACT NO"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      class="space"
+                      id="4"
+                      type="text"
+                      placeholder="ENQUIRE"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <button class="btn">
+                    <a href="#">Submit</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>Copy@</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>

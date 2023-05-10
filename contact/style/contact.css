@@ -1,34 +1,177 @@
+
 body{
-    background-color: burlywood !important;
+    background-color: teal !important;
 }
-
-
-
 #nav{
-    /* opacity: 0.70; */
+    opacity: 0.70;
      margin: 0;
      position: fixed;
+     top: 0;
      width: 100%;
      background-color: transparent;
-    
+     z-index: 10;
  }
- 
- 
-     
-   
  .nav-link{
      margin-left: 220px !important;
      color: white;
  }
-
  .about {
     text-align: center;
     margin-top: 90px;
     color: white;
     /* text-decoration: underline; */
 }
-
 .sec{
     padding: 80px 70px;
     display: flex;
+}
+body{
+    background-color:  rgb(35,31,32);
+}
+.button{
+    margin: 30px 30px ;
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 7px;
+    width: 120px;
+    margin-right: 90px;
+}
+.background{
+    display: flex;
+    min-height: 50vh top;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    /* background-image:url(/content/img/j-cole-cover-gq-april-2019-08.webp); */
+}
+.container{
+    padding: 10px 0px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    /* justify-content:flex-end ;
+    align-content: end; */
+}
+.h4{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: start;
+    justify-content: center;
+    
+   top: 0;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    background-color: transparent;
+}
+.screen{
+    justify-content: space-between;
+    justify-items: end;
+}
+.space{
+    justify-content: end;
+margin: 10px;
+align-items: end;
+background-color: transparent;
+color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+a{
+    color: white;
+    text-decoration: none;
+}body{
+    background-color:  rgb(35,31,32);
+}
+.button{
+    margin: right 60px;;
+    position: absolute;
+    
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 7px;
+    width: 120px;
+    margin-right: 90px;
+}
+.btn{
+    margin-left: 250px;
+    position: absolute;
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 7px;
+    width: 120px;
+}
+.background{
+    display: flex;
+    min-height: 50vh top;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-image:url(/content/img/j-cole-cover-gq-april-2019-08.webp); */
+}
+.container{
+    padding: 200px 200px;
+    /* background-image: url(/content/img/4c5a05f54aea1894796e50bf1e07ff5f.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-top: 90px;
+    /* justify-content:flex-end ;
+    align-content: end; */
+}
+.h4{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: start;
+    justify-content: center;
+    
+   top: 0;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    background-color: transparent;
+}
+.screen{
+    justify-content: space-between;
+    justify-items: end;
+}
+.space{
+    justify-content: end;
+margin: 10px;
+align-items: end;
+background-color: transparent;
+color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
