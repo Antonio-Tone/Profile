@@ -1,0 +1,86 @@
+body{
+    background-color: teal !important;
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    opacity: 0.70;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
+#btn{
+    margin: 20px;
+}
+#btn:hover{
+    background-color: rgb(13,202,240);
+    scale: 120%;
+    font-weight: bolder;
+}
+
+#text{
+    color: blue !important;
+}
+
+
+
+
+#fadeIn{
+    animation: fadeIn 10s !important;
+    margin-right: 5px;
+    animation:infinite;
+    border-radius: 10px;
+    height: 400px;
+}
+
+#fadeIn2{
+    animation: fadeIn 10s !important;
+    margin-right: 5px;
+    animation:infinite;
+    border-radius: 10px;
+    height: 400px;
+}
+
+#fadeIn3{
+    animation: fadeIn 10s !important;
+    margin-right: 5px;
+    animation:infinite;
+    border-radius: 10px;
+    height: 400px;
+}
+
+#fadeIn4{
+    animation: fadeIn 10s !important;
+    margin-right: 5px;
+    animation:infinite;
+    border-radius: 10px;
+    height: 400px;
+    
+}
+
+#fadeIn5{
+    animation: fadeIn 10s !important;
+    margin-right: 5px;
+    animation:infinite;
+    border-radius: 10px;
+    height: 400px;
+    
+}
+
+@keyframes  fadeIn{
+from{
+    opacity: 0;
+}
+
+to{
+    opacity: 1;
+}
+
+ 
+}
+
+
+.sec{
+    margin-bottom: 50px;
+}

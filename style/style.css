@@ -191,7 +191,7 @@ text:hover{
     background-color: white!important;
     opacity: 0.70;
     text-align: center;
-    list-style-type: ;
+    
 }
 
 
@@ -203,4 +203,16 @@ margin: 0;
 .dropdown-item:hover{
     background-color: green;
 
+}
+
+@media screen and (max-width: 900px) {
+    .showcase{
+        width: 20em;
+            }
+}
+
+#btn:hover{
+    background-color: rgb(13,202,240);
+    scale: 120%;
+    font-weight: bolder;
 }

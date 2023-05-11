@@ -2,13 +2,12 @@ body{
     background-color: teal !important;
     height: 100vh;
 }
-@media screen {min-width: 900px;
-    
-}
+
+
 #nav{
    opacity: 0.70 !important;
     margin: 0;
-    /* position: fixed; */
+   
     width: 100%;
     
 }
@@ -16,27 +15,10 @@ body{
     margin-left: 220px !important;
     color: white;
 }
-/* .about {
-    text-align: center;
-    margin-top: 190px;
-    display: flex;
 
-   
-} */
-/* text-decoration: underline; */
-
-
-/* .et{
-    display: flex !important;
-    justify-content: center;
-    color: white;
-    font-size: large;
-    font-weight: bolder;
-  
-} */
 
 #is{
-    /* background-color: grey !important; */
+    
     position: sticky;
     top: 0;
 }
@@ -44,18 +26,9 @@ body{
 height: 400px;
 width: 300px;
 margin-left: 15rem;
-/* 
-justify-content: end; */
+
 }
-/* #pc{
-    display: flex !important;
-    justify-content:end;
-    margin-right: 90px;
-    border-radius: 30px !important;
-} */
-/* #div{
-    margin: 0 !important;
-} */
+
 #light{
     margin-top: 60px;
     padding:  90px;
@@ -86,7 +59,6 @@ justify-content: end; */
 #light2{
     margin-top: 60px;
     padding:  90px;
-    /* display: flex; */
     justify-content: end;
     margin-left: 700px;
     margin-right: 90px;
