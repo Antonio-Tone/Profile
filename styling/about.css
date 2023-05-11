@@ -4,6 +4,7 @@ body{
 }
 
 
+
 #nav{
    opacity: 0.70 !important;
     margin: 0;
@@ -27,6 +28,15 @@ height: 400px;
 width: 300px;
 margin-left: 15rem;
 
+}
+
+#btn{
+    margin: 20px;
+}
+#btn:hover{
+    background-color: rgb(13,202,240);
+    scale: 120%;
+    font-weight: bolder;
 }
 
 #light{

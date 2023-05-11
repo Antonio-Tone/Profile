@@ -1,0 +1,56 @@
+body{
+    background-color: teal !important;
+}
+
+#nav{
+    opacity: 0.70;
+    
+    top: 0;
+    width: 100%;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 622px) {
+    ul{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px !important;
+            }
+}
+
+.head{
+    color: blue;
+}
+
+.card{
+    background-color: rgb(23,64,67)!important;
+   
+}
+
+#img{
+    height:250px !important ;
+}
+
+
+#img2{
+    height:250px !important ;
+}
+
+#img3{
+    height: 250px !important;
+}
+
+.card-text{
+    color: white;
+}
+
+#btn:hover{
+    background-color: rgb(13,202,240);
+    scale: 120%;
+    font-weight: bolder;
+}
