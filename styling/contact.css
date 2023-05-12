@@ -1,9 +1,11 @@
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 body{
     background-color: teal !important;
     height: 100vh !important;
 }
-
+#contact {
+    min-height: 100vh;
+}
 .con-animation {
     animation: name-breathing 10s infinite normal;
     animation-duration: 10s;
@@ -43,7 +45,6 @@ body{
 #nav{
     opacity: 0.70;
      margin: 0;
-     position: fixed;
      top: 0;
      width: 100%;
      background-color: transparent;
@@ -71,8 +72,6 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-
 }
 
 .form-outline{
@@ -92,8 +91,8 @@ h2{
    
 }
 
-h1{
-    color: #314a5e !important;
+.heading {
+    color: #aed5d6 !important;
     text-align: center;
     font-size:x-large;
 }
@@ -113,7 +112,13 @@ h1{
     scale: 120%;
     font-weight: bolder;
 }
-
+.container{
+    min-height: 100%;
+}
+i {
+    color: #aed5d5; 
+    font-size: 2em;
+}
 @media screen and (max-width: 622px) {
     .form-outline{
         display: flex !important;

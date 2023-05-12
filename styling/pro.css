@@ -4,7 +4,6 @@ body{
 
 #nav{
     opacity: 0.70;
-    
     top: 0;
     width: 100%;
 
@@ -35,7 +34,7 @@ ul{
 }
 
 .head{
-    color: blue;
+    color: #aed5d6;
 }
 
 .card{

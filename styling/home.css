@@ -1,7 +1,7 @@
 
 body{
     background-color: teal!important;
-    min-height: 100vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -150,7 +150,9 @@ text:hover{
     text-align: center;
     
 }
-
+#btn {
+    background-color: #314a5e;
+}
 
 
 
@@ -164,4 +166,8 @@ text:hover{
     background-color: rgb(13,202,240);
     scale: 120%;
     font-weight: bolder;
+}
+
+#landing{
+    min-height: 100vh;
 }

@@ -42,27 +42,9 @@ margin-top: 20px;
 
 }
 
-hr{
-    width: 50%;
-    color: #aed5d5 !important;
-    
-
+.heading{
+    color: #aed5d5 !important;    
 }
-
-
-
-.bio{
-    /* background-color: #aed5d5 !important; */
-   
-}
-
-
-
-
-
-
-
- 
 
  ul{
     display: flex;
@@ -93,7 +75,7 @@ a{
 
 }
 
-p{
+.text{
     font-size: x-large;
     color: #aed5d5;
     
