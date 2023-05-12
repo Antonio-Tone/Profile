@@ -1,6 +1,6 @@
 body{
     background-color: teal !important;
-    height: 100vh;
+    height: 100vh !important;
 }
 
 
@@ -23,77 +23,46 @@ body{
     position: sticky;
     top: 0;
 }
+
+.px-3:hover{
+    background-color:#314a5e;
+    padding: 5px;
+   
+
+}
+
+a:hover{
+    color: #aed5d5 !important;
+}
+
 #antonio{
-height: 400px;
+height: 350px;
 width: 300px;
-margin-left: 15rem;
+margin-top: 20px;
 
 }
 
-#btn{
-    margin: 20px;
-}
-#btn:hover{
-    background-color: rgb(13,202,240);
-    scale: 120%;
-    font-weight: bolder;
+hr{
+    width: 50%;
+    color: #aed5d5 !important;
+    
+
 }
 
-#light{
-    margin-top: 60px;
-    padding:  90px;
-    margin-right: 700px;
-    margin-bottom: 30px;
-    text-align: center;
+
+
+.bio{
+    /* background-color: #aed5d5 !important; */
    
 }
 
-#light:hover{
-    background: grey !important;
-    color: white;
-    font-weight: bold;
-}
-#light1{
-    margin-top: 60px;
-    padding:  90px;
-    margin-right: 700px;
- margin-left: 90px;
- text-align: center;
-}
 
-#light1:hover{
-    background: grey !important;
-    color: white;
-    font-weight: bold;
-}
-#light2{
-    margin-top: 60px;
-    padding:  90px;
-    justify-content: end;
-    margin-left: 700px;
-    margin-right: 90px;
-    text-align: center;
- }
 
- #light2:hover{
-    background: grey !important;
-    color: white;
-    font-weight: bold;
-    animation: name-breathing 10s  infinite normal;
-}
- #light3{
-    margin-top: 60px;
-    padding:  90px;
-    margin-left: 700px;
-    margin-right: 90px;
-    text-align: center;
- }
 
- #light3:hover{
-    background: grey !important;
-    color: white;
-    font-weight: bold;
-}
+
+
+
+ 
 
  ul{
     display: flex;
@@ -120,6 +89,54 @@ a{
 }
 
 #abt{
-    font-size: xx-large !important;
+    font-size: 40px !important;
+
+}
+
+p{
+    font-size: x-large;
+    color: #aed5d5;
+    
+}
+
+.con-animation {
+    animation: name-breathing 10s infinite normal;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: con-breathing;
+}
+
+@keyframes con-breathing {
+    0% {
+        transform: scale(1);
+    }
+    16% {
+        transform: scale(1.1);
+    }
+    32% {
+        transform: scale(1);
+    }
+    48% {
+        transform: scale(1.1);
+    }
+    64% {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+a{
+    color: #314a5e !important;
 
 }

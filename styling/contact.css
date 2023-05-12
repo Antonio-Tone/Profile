@@ -49,6 +49,18 @@ body{
      background-color: transparent;
     
  }
+
+ .px-3:hover{
+    background-color:#314a5e;
+    padding: 5px;
+   
+
+}
+
+a:hover{
+    color: #aed5d5 !important;
+}
+ 
  .nav-link{
      margin-left: 220px !important;
      color: white;
@@ -106,7 +118,7 @@ h1{
     .form-outline{
         display: flex !important;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
     }
 }

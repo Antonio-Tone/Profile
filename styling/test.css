@@ -2,6 +2,7 @@ body{
     background-color: teal !important;
     margin: 0;
     padding: 0;
+    /* min-height: 100vh !important; */
 }
 
 #nav{
@@ -17,6 +18,17 @@ body{
     background-color: rgb(13,202,240);
     scale: 120%;
     font-weight: bolder;
+}
+
+.px-3:hover{
+    background-color:#314a5e;
+    padding: 5px;
+   
+
+}
+
+a:hover{
+    color: #aed5d5 !important;
 }
 
 #text{

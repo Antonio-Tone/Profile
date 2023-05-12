@@ -82,9 +82,14 @@ to{
 
 
 .px-3:hover{
-    background-color: green;
+    background-color:#314a5e;
     padding: 5px;
+   
 
+}
+
+a:hover{
+    color: #aed5d5 !important;
 }
 
 

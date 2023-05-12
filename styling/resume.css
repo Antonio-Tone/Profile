@@ -1,0 +1,15 @@
+
+
+/* Set a background color */
+body {
+    background-color: teal;
+ 
+}
+
+#nav{
+    opacity: 0.70 !important;
+     margin: 0;
+     width: 100%;
+    }
+    
+     
