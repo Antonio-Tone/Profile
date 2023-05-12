@@ -77,68 +77,52 @@
       </div>
     </nav>
    
-    <h1 class="about">Contact Me</h1>
-    <a href="/INDEX.HTML">
-      <button class="button">Back</button>
-    </a>
+
 
     <div class="container">
       <div class="row">
         <div class="col my-auto">
-          <h1 id="abt" class="about text-center">
-            Contact <br /><br />
+          <h1 id="abt" class="about d-flex align-items-start justify-content-center con-animation">
+            Contact <br />
             Me
           </h1>
         </div>
 
         <div class="col">
-          <form class="background">
-            <div class="container bg-light">
-              <div class="h4"><h4>Contact Us</h4></div>
-              <div class="screen">
-                <div class="screen-header">
-                  <div class="screen-header-left"></div>
-                  <div class="screen-header-right"></div>
-                </div>
-                <div class="input">
-                  <input class="space" id="1" type="text" placeholder="NAME" />
-                  <div>
-                    <input
-                      class="space"
-                      id="2"
-                      type="email"
-                      placeholder="EMAIL"
-                    />
-                  </div>
-                  <div>
-                    <input
-                      class="space"
-                      id="3"
-                      type="tel"
-                      placeholder="CONTACT NO"
-                    />
-                  </div>
-                  <div>
-                    <input
-                      class="space"
-                      id="4"
-                      type="text"
-                      placeholder="ENQUIRE"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <button class="btn">
-                    <a href="#">Submit</a>
-                  </button>
+          <form action="https://formspree.io/f/mayzkeqz" method="post">
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row mb-4 ">
+              <h1 class="d-flex justify-content-center my-4">Contact Form</h1>
+              <div class="col" >
+                <div class="form-outline ">
+                  <input type="text" id="form3Example1" class="form-control" name="firstname" placeholder="First Name " required />
                 </div>
               </div>
+              <div class="col ">
+                <div class="form-outline ">
+                  <input type="text" id="form3Example2" class="form-control" name="surname" placeholder="Last Name" required />
+                    </div>
+              </div>
             </div>
+          
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form3Example3" class="form-control" name="email" placeholder="Email Address" required />
+            </div>
+              <!-- Message input -->
+            <div class="form-outline mb-4">
+                <textarea class="form-control" id="form4Example3" name="message" rows="4" placeholder="Message" required></textarea>
+            </div>
+<div>
+            <!-- Submit button -->
+            <button type="submit" id="btn" class="btn btn-success btn-block d-block mx-auto">Submit</button>
+          </div>
           </form>
-        </div>
-      </div>
     </div>
-    <footer>Copy@</footer>
+</div>
+</div>
+    
+    <footer>&copy;</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

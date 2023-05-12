@@ -1,7 +1,45 @@
 
 body{
     background-color: teal !important;
+    height: 100vh !important;
 }
+
+.con-animation {
+    animation: name-breathing 10s infinite normal;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: con-breathing;
+}
+@keyframes con-breathing {
+    0% {
+        transform: scale(1);
+    }
+    16% {
+        transform: scale(1.1);
+    }
+    32% {
+        transform: scale(1);
+    }
+    48% {
+        transform: scale(1.1);
+    }
+    64% {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
 #nav{
     opacity: 0.70;
      margin: 0;
@@ -9,115 +47,13 @@ body{
      top: 0;
      width: 100%;
      background-color: transparent;
-     z-index: 10;
+    
  }
  .nav-link{
      margin-left: 220px !important;
      color: white;
  }
- .about {
-    text-align: center;
-    margin-top: 90px;
-    color: white;
-    /* text-decoration: underline; */
-}
-.sec{
-    padding: 80px 70px;
-    display: flex;
-}
-body{
-    background-color:  rgb(35,31,32);
-}
-.button{
-    margin: 30px 30px ;
-    position: absolute;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px 10px;
-    border-radius: 7px;
-    width: 120px;
-    margin-right: 90px;
-}
-.background{
-    display: flex;
-    min-height: 50vh top;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-height: 100vh;
-    
-}
-.container{
-    padding: 10px 0px;
-    
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-    
-}
-.h4{
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    
-   top: 0;
-}
-.input{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    color: white;
-    font-size: medium;
-    font-weight: bold;
-    background-color: transparent;
-}
-.screen{
-    justify-content: space-between;
-    justify-items: end;
-}
-.space{
-    justify-content: end;
-margin: 10px;
-align-items: end;
-background-color: transparent;
-color: white;
-    font-size: medium;
-    font-weight: bold;
-}
 
-body{
-    background-color:  rgb(35,31,32);
-}
-.button{
-    margin: right 60px;;
-    position: absolute;
-    
-    color: white;
-    text-align: center;
-    padding: 10px 10px;
-    border-radius: 7px;
-    width: 120px;
-    margin-right: 90px;
-}
-.btn{
-    margin-left: 250px;
-    position: absolute;
-    background-color: white;
-    color: white;
-    text-align: center;
-    padding: 10px 10px;
-    border-radius: 7px;
-    width: 120px;
-}
-.background{
-    display: flex;
-    min-height: 50vh top;
-}
 form{
     display: flex;
     flex-direction: column;
@@ -126,46 +62,51 @@ form{
     min-height: 100vh;
 
 }
-.container{
-    padding: 200px 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-    margin-top: 90px;
-   
-}
-.h4{
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    
-   top: 0;
-}
-.input{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    color: white;
-    font-size: medium;
-    font-weight: bold;
-    background-color: transparent;
-}
-.screen{
-    justify-content: space-between;
-    justify-items: end;
-}
-.space{
-    justify-content: end;
-margin: 10px;
-align-items: end;
-background-color: transparent;
-color: white;
-    font-size: medium;
-    font-weight: bold;
-}
-a{
-    color: white;
-    text-decoration: none;
+
+.form-outline{
+  width: 100%!important;
+  color: white !important;
 }
 
+
+.form-control{
+    background-color:  #aed5d5!important;
+    color: black !important;
+    
+}
+
+h2{
+    color:#314a5e !important;
+   
+}
+
+h1{
+    color: #314a5e !important;
+    text-align: center;
+    font-size:x-large;
+}
+
+
+.con-animation{
+        animation: con-breathing 10s infinite normal;
+
+}
+
+#btn{
+    background-color: #314a5e !important;
+}
+
+#btn:hover{
+    background-color: rgb(13,202,240) !important;
+    scale: 120%;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 622px) {
+    .form-outline{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

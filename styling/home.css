@@ -2,12 +2,8 @@
 body{
     background-color: teal!important;
     min-height: 100vh;
-    display: flex !important;
     justify-content: center;
     align-items: center;
-
-    
-     
 }
 
 #fadeIn{
@@ -157,10 +153,6 @@ text:hover{
     .showcase{
         width:20em;
             }
-}
-
-#btn{
-    margin-left: 140px;
 }
 
 #btn:hover{
